@@ -34,12 +34,12 @@ public class GreetingController {
 
     // returns a list of integers to be displayed on a path called "list"
     @RequestMapping("/list")
-    public List<Number> getList(){
-        List<Number> numbers =new ArrayList<Number>();
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
+    public List<String> getList(){
+        List<String> numbers =new ArrayList<String>();
+        numbers.add("1");
+        numbers.add("2");
+        numbers.add("3");
+        numbers.add("4");
         return numbers;
     }
 
