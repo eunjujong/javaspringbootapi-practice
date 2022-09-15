@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Used RequesMapping annotation to map web requests onto specific handler class and methods.
  * Specific values returned by the functions are commented below.
 */
+
 @RestController
 public class APIProjectController {
 
@@ -23,7 +24,7 @@ public class APIProjectController {
     // returns a single string value "success" to be displayed on a path called "string"
     @RequestMapping("/string")
     public String getString(){
-        return "Success";
+        return "String Success";
     }
 
     // returns an integer value to be displayed on a path called "number"
