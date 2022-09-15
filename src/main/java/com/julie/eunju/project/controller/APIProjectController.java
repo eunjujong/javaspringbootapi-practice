@@ -1,4 +1,4 @@
-package com.julie.eunju.demo.controller;
+package com.julie.eunju.project.controller;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Specific values returned by the functions are commented below.
 */
 @RestController
-public class GreetingController {
+public class APIProjectController {
 
     // returns a string value containing a greeting message to be 
     // displayed on a path called "greeting"
