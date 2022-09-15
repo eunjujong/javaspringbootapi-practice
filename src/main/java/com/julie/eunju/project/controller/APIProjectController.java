@@ -1,4 +1,4 @@
-package com.julie.eunju.demo.controller;
+package com.julie.eunju.project.controller;
 
 import java.util.*;
 
@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
  * Used RequesMapping annotation to map web requests onto specific handler class and methods.
  * Specific values returned by the functions are commented below.
 */
+
 @RestController
-public class GreetingController {
+public class APIProjectController {
 
     // returns a string value containing a greeting message to be 
     // displayed on a path called "greeting"
@@ -23,7 +24,7 @@ public class GreetingController {
     // returns a single string value "success" to be displayed on a path called "string"
     @RequestMapping("/string")
     public String getString(){
-        return "Success";
+        return "String Success";
     }
 
     // returns an integer value to be displayed on a path called "number"
